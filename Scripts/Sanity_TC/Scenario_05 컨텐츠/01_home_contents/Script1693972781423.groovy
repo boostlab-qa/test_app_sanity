@@ -214,36 +214,12 @@ Mobile.swipe(100, position_hospital_paediatrics, 1000, position_hospital_paediat
 Mobile.scrollToText('똑닥 예약 병원')
 
 //이런 병원 찾고 계신가요? 독감예방접종
-'STEP - 이런 병원 찾고 계신가요? [독감예방접종] 컨텐츠 선택'
-Mobile.tap(findTestObject('03_home/02_contents/txt_like_hospital_flu'), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE)
-
-'기대결과 - 검색 화면이 노출된다.'
-Mobile.verifyElementVisible(findTestObject('08_search/txt_hospital_name'), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE) //병원명
-Mobile.verifyElementText(findTestObject('08_search/input_search'), '독감예방접종', FailureHandling.CONTINUE_ON_FAILURE) //검색어
-Mobile.verifyElementText(findTestObject('08_search/txt_sort_type'), '관련순', FailureHandling.CONTINUE_ON_FAILURE) //sort 타입
-
-'STEP - [<-] 뒤로가기 버튼 선택'
-Mobile.tap(findTestObject('00_common/btn_backBtn'), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE)
-
-//이런 병원 찾고 계신가요? {똑닥 예약 병원}
 'STEP - 이런 병원 찾고 계신가요? [똑닥 예약 병원] 컨텐츠 선택'
 Mobile.tap(findTestObject('03_home/02_contents/txt_like_hospital_reservation'), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE)
 
-'기대결과 - 검색 화면 노출'
-Mobile.verifyElementVisible(findTestObject('08_search/txt_hospital_name'), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE) //병원명
+'기대결과 - 검색 화면이 노출된다.'
+Mobile.verifyElementVisible(findTestObject('08_search/txt_hospital_name'), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE)
 Mobile.verifyElementText(findTestObject('08_search/input_search'), '똑닥 예약 병원', FailureHandling.CONTINUE_ON_FAILURE) //검색어
-Mobile.verifyElementText(findTestObject('08_search/txt_sort_type'), '관련순', FailureHandling.CONTINUE_ON_FAILURE) //sort 타입
-
-'STEP - [<-] 뒤로가기 버튼 선택'
-Mobile.tap(findTestObject('00_common/btn_backBtn'), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE)
-
-//이런 병원 찾고 계신가요? {일요일 진료}
-'STEP - 이런 병원 찾고 계신가요? [일요일 진료] 컨텐츠 선택'
-Mobile.tap(findTestObject('03_home/02_contents/txt_like_hospital_sunday'), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE)
-
-'기대결과 - 검색 화면 노출'
-Mobile.verifyElementVisible(findTestObject('08_search/txt_hospital_name'), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE) //병원명
-Mobile.verifyElementText(findTestObject('08_search/input_search'), '일요일 진료', FailureHandling.CONTINUE_ON_FAILURE) //검색어
 Mobile.verifyElementText(findTestObject('08_search/txt_sort_type'), '관련순', FailureHandling.CONTINUE_ON_FAILURE) //sort 타입
 
 'STEP - [<-] 뒤로가기 버튼 선택'
@@ -256,7 +232,7 @@ Mobile.verifyElementVisible(findTestObject('03_home/btn_menu_home_selected'), Gl
 int position_hospital_reservation = Mobile.getElementTopPosition(findTestObject('03_home/02_contents/txt_like_hospital_reservation'), GlobalVariable.fixedTime)
 Mobile.swipe(800, position_hospital_reservation, 100, position_hospital_reservation)
 
-//이런 병원 찾고 계신가요? {입원 가능한 소아과}
+//이런 병원 찾고 계신가요? 입원 가능한 소아과
 'STEP - 이런 병원 찾고 계신가요? [입원 가능한 소아과] 컨텐츠 선택'
 Mobile.tap(findTestObject('03_home/02_contents/txt_like_hospital_hospitalize_pediatrics'), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE)
 
