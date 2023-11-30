@@ -85,28 +85,28 @@
       <guid>c8acebf4-7115-4d96-8842-d9c72de5dc6e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sanity_TC/Scenario_10 가족관리/01_family_add_edit</testCaseId>
+      <testCaseId>Test Cases/Sanity_TC/Scenario_11 가족관리/01_family_add_edit</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>5b6f810f-86e0-4e7c-b173-2860518f6066</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sanity_TC/Scenario_11 건강피드/01_health_feed_growth</testCaseId>
+      <testCaseId>Test Cases/Sanity_TC/Scenario_12 건강피드/01_health_feed_growth</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>e5d64d74-ef14-4cb1-8e60-952e3fff23db</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sanity_TC/Scenario_11 건강피드/02_health_feed_temperature</testCaseId>
+      <testCaseId>Test Cases/Sanity_TC/Scenario_12 건강피드/02_health_feed_temperature</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>d84f7ff7-c18b-40c8-8ac9-7eadca3e4117</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sanity_TC/Scenario_11 건강피드/03_health_feed_filter</testCaseId>
+      <testCaseId>Test Cases/Sanity_TC/Scenario_12 건강피드/03_health_feed_filter</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
