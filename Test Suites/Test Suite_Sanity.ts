@@ -12,98 +12,119 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>222c8f35-2a1d-44ea-9121-7c7f2764b462</testSuiteGuid>
    <testCaseLink>
-      <guid>532ae23f-862d-407a-8b65-f6cec88fed20</guid>
+      <guid>a11faf5e-0029-4c79-9161-277a3400a48e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sanity_TC/Scenario_00 데이터삭제/00_data_delete</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>93ed1cee-0cf1-48a4-bd92-7954d22d8ae0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sanity_TC/Scenario_01 로그인/01_email_login_logout</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>afb5a5f8-9f30-4b5c-8420-54a8e777be4c</guid>
+      <guid>76908c2f-e890-47dd-a8e5-180d89f42766</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sanity_TC/Scenario_02 주소설정/01_adress_setting_add_delete</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b9b1e639-e82e-4d17-b47c-fa14b627d345</guid>
+      <guid>18d8f454-d6a3-4388-a620-55f1b37d770a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sanity_TC/Scenario_02 주소설정/02_adress_setting_edit_select</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>60f81bed-b6a9-497e-88dd-d3a853de8565</guid>
+      <guid>d3d5d6ca-6397-43d8-bb21-c3a3f2acd441</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sanity_TC/Scenario_03 찜한목록/01_home_favorits</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>fc51fdc2-bbb4-458a-8a74-32f457ada490</guid>
+      <guid>ecb6f90b-f35f-4a71-8bdc-66d76b8d1a5e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sanity_TC/Scenario_04 검색/01_search_hospital</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>39efbfa2-7da4-401c-8c20-4353ccaa83fc</guid>
+      <guid>0ec3873f-2df2-47e4-bd50-037bde2037f5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sanity_TC/Scenario_04 검색/02_search_adress_edit</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4c5bfd7f-783c-45af-81cd-4efce8888c8a</guid>
+      <guid>c9e36743-101a-4020-ba1d-847dfd8e30b7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sanity_TC/Scenario_05 컨텐츠/01_home_contents</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3002dedd-a02b-4e50-aa66-88a3b38cf6e6</guid>
+      <guid>617c7a95-d48d-432b-8713-1ef1a0902eaa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sanity_TC/Scenario_06 접수/01_receipt</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4c7c2f0d-cf32-48d4-8d43-2c040e4cfbad</guid>
+      <guid>9a693ca9-2f8b-4ccf-b0de-2700cd1e3717</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sanity_TC/Scenario_07 예약/01_reservation</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>dd1011cf-4fbe-4c05-b896-90870c1817f2</guid>
+      <guid>54d32e3b-b39f-4681-8542-9845c4f98597</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sanity_TC/Scenario_08 진료내역/01_receipt_history</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c8acebf4-7115-4d96-8842-d9c72de5dc6e</guid>
+      <guid>21147a7e-42f7-4b65-a358-bf86d68e6151</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sanity_TC/Scenario_09 나의똑닥/01_my_ddocdoc</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4a4aec98-c8d5-4bd7-adc0-fbde09c9a9c8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sanity_TC/Scenario_10 이벤트/01_event_vote</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cc701271-07c9-47d3-9db8-a3f628b77164</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sanity_TC/Scenario_11 가족관리/01_family_add_edit</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5b6f810f-86e0-4e7c-b173-2860518f6066</guid>
+      <guid>9d134f83-9c25-42cd-9c1c-893a68d530c6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sanity_TC/Scenario_12 건강피드/01_health_feed_growth</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e5d64d74-ef14-4cb1-8e60-952e3fff23db</guid>
+      <guid>4c4a151c-217d-425f-8f3e-f7a842be185e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sanity_TC/Scenario_12 건강피드/02_health_feed_temperature</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d84f7ff7-c18b-40c8-8ac9-7eadca3e4117</guid>
+      <guid>4c47b22e-ba1e-4af2-8cfc-512b0bc9c6a1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sanity_TC/Scenario_12 건강피드/03_health_feed_filter</testCaseId>
