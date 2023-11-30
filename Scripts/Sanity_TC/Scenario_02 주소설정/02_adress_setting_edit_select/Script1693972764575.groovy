@@ -144,8 +144,8 @@ Mobile.tap(findTestObject('00_common/btn_backBtn'), GlobalVariable.fixedTime, Fa
 'STEP - [홈] 메뉴 선택'
 Mobile.tap(findTestObject('03_home/btn_menu_home'), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE)
 
-'STEP - 홈 주소이름 선택'
-Mobile.tap(findTestObject('03_home/txt_home_adress_name'), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE)
+'STEP - 홈 주소이름 [v] 버튼 선택'
+Mobile.tap(findTestObject('03_home/btn_iv_arrow'), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE)
 
 '기대결과 - 주소 설정 화면으로 이동된다.'
 Mobile.verifyElementVisible(findTestObject('00_common/txt_page_titleTxt', [('text') : '주소 설정']), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE) 
@@ -162,12 +162,12 @@ Mobile.tap(findTestObject('06_adress_setting/btn_my_home'), GlobalVariable.fixed
 Mobile.verifyElementVisible(findTestObject('03_home/btn_menu_home_selected'), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE)
 
 '기대결과 - 조수 이름이 {우리집}으로 노출된다.'
-Mobile.verifyElementText(findTestObject('03_home/txt_home_adress_name'), '우리집', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('03_home/txt_home_adress_name', [('text') : '우리집']), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE) 
 //
 
 //주소 목록 선택 - 그 외
-'STEP - 홈 주소이름 선택'
-Mobile.tap(findTestObject('03_home/txt_home_adress_name'), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE)
+'STEP - 홈 주소이름 [v] 버튼 선택'
+Mobile.tap(findTestObject('03_home/btn_iv_arrow'), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE)
 
 '기대결과 - 주소 설정 화면으로 이동된다.'
 Mobile.verifyElementVisible(findTestObject('00_common/txt_page_titleTxt', [('text') : '주소 설정']), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE) 
@@ -210,12 +210,12 @@ Mobile.tap(findTestObject('06_adress_setting/btn_different_adress_name'), Global
 Mobile.verifyElementVisible(findTestObject('03_home/btn_menu_home_selected'), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE) 
 
 '기대결과 - 조수 이름에 {TEST}가 노출된다.'
-Mobile.verifyElementText(findTestObject('03_home/txt_home_adress_name'), 'TEST', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('03_home/txt_home_adress_name', [('text') : 'TEST']), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE) 
 //
 
 //주소 목록 선택 - 현위치 선택
-'STEP - 홈 주소이름 선택'
-Mobile.tap(findTestObject('03_home/txt_home_adress_name'), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE)
+'STEP - 홈 주소이름 [v] 버튼 선택'
+Mobile.tap(findTestObject('03_home/btn_iv_arrow'), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE)
 
 '기대결과 - 주소 설정 화면으로 이동된다.'
 Mobile.verifyElementVisible(findTestObject('00_common/txt_page_titleTxt', [('text') : '주소 설정']), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE) 
@@ -229,7 +229,7 @@ Mobile.verifyElementVisible(findTestObject('03_home/btn_menu_home_selected'), Gl
 Mobile.delay(3)
 
 '기대결과 - 현위치 주소이름이 노출된다.'
-Mobile.verifyElementText(findTestObject('03_home/txt_home_adress_name'), GlobalVariable.adress_name, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('03_home/txt_home_adress_name', [('text') : GlobalVariable.adress_name]), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE)
 //
 
 'STEP - 앱 종료'

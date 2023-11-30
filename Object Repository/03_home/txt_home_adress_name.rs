@@ -3,7 +3,7 @@
    <description>홈 > 주소 이름 영역</description>
    <name>txt_home_adress_name</name>
    <tag></tag>
-   <elementGuidId>53e4a0e8-1147-44fd-866b-1a10ac2551b0</elementGuidId>
+   <elementGuidId>30a73f0b-32bd-4f3f-825c-2d7dbb3cb9f8</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -12,16 +12,16 @@
       <name>resource-id</name>
       <type>Main</type>
       <value>com.bbros.sayup.debug:id/tv_title</value>
-      <webElementGuid>b4f16a10-723c-4ffa-b169-fb243ae031db</webElementGuid>
+      <webElementGuid>320d5638-bf76-4e08-850f-c22fb85373d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>index</name>
+      <name>text</name>
       <type>Main</type>
-      <value>1</value>
-      <webElementGuid>26b14e68-8f54-4833-9664-0581b2ab3c3f</webElementGuid>
+      <value>${text}</value>
+      <webElementGuid>cd92e834-77a9-40b3-b952-c558413ab637</webElementGuid>
    </webElementProperties>
-   <locator>//*[@resource-id = 'com.bbros.sayup.debug:id/tv_title' and @index = '1']</locator>
+   <locator>//*[@resource-id = 'com.bbros.sayup.debug:id/tv_title' and (@text = '${text}' or . = '${text}')]</locator>
    <locatorStrategy>XPATH</locatorStrategy>
 </MobileElementEntity>

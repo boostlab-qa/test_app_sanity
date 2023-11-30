@@ -26,13 +26,7 @@ import io.appium.java_client.MobileElement
 'STEP - 똑닥 앱 실행'
 Mobile.startExistingApplication(GlobalVariable.appid)
 
-'기대결과 - 홈 화면으로 이동된다.'
-Mobile.verifyElementVisible(findTestObject('03_home/txt_home_adress_name'), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE)
-
 //검색
-'STEP - 현재 설정되어있는 주소 이름 저장'
-home_adress_name = Mobile.getText(findTestObject('03_home/txt_home_adress_name'), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE)
-
 'STEP - 홈 검색 영역 선택'
 Mobile.tap(findTestObject('03_home/area_view_search_bar'), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE)
 
