@@ -73,8 +73,8 @@ Mobile.tap(findTestObject('08_search/txt_hospital_name'), GlobalVariable.fixedTi
 //'기대결과 - 병원상세로 이동되고, [바로접수] 버튼이 노출된다.'
 //Mobile.verifyElementVisible(findTestObject('09_hospital_detail/btn_left', [('text') : '바로접수']), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE)
 
-'STEP - [<-] 뒤로가기 버튼 선택'
-Mobile.tap(findTestObject('00_common/btn_webview_back'), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE)
+'STEP - 병원상세 [<-] 뒤로가기 버튼 선택'
+Mobile.tap(findTestObject('09_hospital_detail/btn_iv_back'), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.delay(3)
 
