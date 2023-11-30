@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
-   <description>홈 > [진료내역] 메뉴</description>
-   <name>btn_menu_history</name>
+   <description>마이페이지 > 진료내역</description>
+   <name>btn_tv_medical_record_title</name>
    <tag></tag>
-   <elementGuidId>3253ed6c-34eb-42b1-9d7a-80479272843f</elementGuidId>
+   <elementGuidId>ee108ae4-703d-41fe-9917-c4864646c3c7</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,8 +11,8 @@
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>com.bbros.sayup.debug:id/tabName</value>
-      <webElementGuid>79c5be33-4ef4-4e81-acc1-c3555b6a2c3b</webElementGuid>
+      <value>com.bbros.sayup.debug:id/tv_medical_record_title</value>
+      <webElementGuid>334f9177-efb2-45d8-9c97-02dbc4f2fc5f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -20,8 +20,8 @@
       <name>text</name>
       <type>Main</type>
       <value>진료내역</value>
-      <webElementGuid>82dbc375-3133-4c65-9159-ce86e7e811ca</webElementGuid>
+      <webElementGuid>8645edd8-316e-4da8-9c02-aa6b1b6df94e</webElementGuid>
    </webElementProperties>
-   <locator>//*[@resource-id = 'com.bbros.sayup.debug:id/tabName' and (@text = '진료내역' or . = '진료내역')]</locator>
+   <locator>//*[@resource-id = 'com.bbros.sayup.debug:id/tv_medical_record_title' and (@text = '진료내역' or . = '진료내역')]</locator>
    <locatorStrategy>XPATH</locatorStrategy>
 </MobileElementEntity>
