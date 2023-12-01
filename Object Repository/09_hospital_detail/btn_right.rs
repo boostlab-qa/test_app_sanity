@@ -3,7 +3,7 @@
    <description>병원상세 > [접수/예약]</description>
    <name>btn_right</name>
    <tag></tag>
-   <elementGuidId>595d7ee2-4d3a-4933-9999-495f75ae0ff3</elementGuidId>
+   <elementGuidId>5fe0369b-9aa1-410b-b8e7-51d63177194b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,8 +11,8 @@
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>com.bbros.sayup.debug:id/tv_right_button</value>
-      <webElementGuid>5e98357b-69b5-4f0b-8163-a598e306051c</webElementGuid>
+      <value>com.bbros.sayup.debug:id/btn_right</value>
+      <webElementGuid>cbbecf32-2e49-4c23-9127-b89dc3085970</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -20,8 +20,8 @@
       <name>text</name>
       <type>Main</type>
       <value>${text}</value>
-      <webElementGuid>a1c716d9-986f-4c22-b401-a1a18db1a52d</webElementGuid>
+      <webElementGuid>c6d2ccd2-2d8e-423c-9733-fb81953646b9</webElementGuid>
    </webElementProperties>
-   <locator>//*[@resource-id = 'com.bbros.sayup.debug:id/tv_right_button' and (@text = '${text}' or . = '${text}')]</locator>
+   <locator>//*[@resource-id = 'com.bbros.sayup.debug:id/btn_right' and (@text = '${text}' or . = '${text}')]</locator>
    <locatorStrategy>XPATH</locatorStrategy>
 </MobileElementEntity>

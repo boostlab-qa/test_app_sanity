@@ -120,12 +120,8 @@ if(Mobile.waitForElementPresent(findTestObject('14_myddocdoc/btn_button_deeplink
 	'STEP - [<] 뒤로가기 버튼 선택'
 	Mobile.tap(findTestObject('00_common/btn_backBtn'), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE)
 	
-	Mobile.delay(2)
-	
 	'기대결과 - 찜한 약국 목록이 노출된다.'
 	Mobile.verifyElementVisible(findTestObject('14_myddocdoc/tv_drugstore_name', [('text') : drugStoreName1]), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE)
-	
-	Mobile.delay(2)
 	
 	'기대결과 - [약국 지도 보러가기] 버튼이 노출되지 않는다.'
 	Mobile.verifyElementNotVisible(findTestObject('14_myddocdoc/btn_button_deeplink'), GlobalVariable.waitTime, FailureHandling.CONTINUE_ON_FAILURE)

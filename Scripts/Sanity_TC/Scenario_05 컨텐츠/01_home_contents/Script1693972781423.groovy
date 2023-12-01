@@ -62,8 +62,11 @@ Mobile.verifyElementVisible(findTestObject('03_home/btn_menu_home_selected'), Gl
 'STEP - 추천 컨텐츠 선택'
 Mobile.tap(findTestObject('03_home/02_contents/img_mom_recommend'), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE)
 
-'기대결과 - 복약 관리 화면으로 이동된다.'
-Mobile.verifyElementVisible(findTestObject('00_common/txt_page_titleTxt', [('text') : '복약 관리']), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE)
+'기대결과 - 건강피드 화면으로 이동된다.'
+Mobile.verifyElementVisible(findTestObject('00_common/txt_page_titleTxt', [('text') : '건강피드']), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE)
+
+'기대결과 - 몸무게 tab이 선택된 상태로 노출된다.'
+Mobile.verifyElementVisible(findTestObject('13_healthy_feed/btn_right_switch'), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE) //몸무게 스위치 상태
 
 'STEP - [<-] 뒤로가기 버튼 선택'
 Mobile.tap(findTestObject('00_common/btn_backBtn'), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE)

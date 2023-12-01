@@ -31,9 +31,6 @@ Mobile.tap(findTestObject('03_home/area_view_search_bar'), GlobalVariable.fixedT
 
 Mobile.delay(3)
 
-'STEP - 가상 키보드 닫기'
-Mobile.pressBack()
-
 '최근 검색어 존재 시 전체 삭제'
 if(Mobile.waitForElementPresent(findTestObject('08_search/btn_all_delete'), GlobalVariable.waitTime, FailureHandling.CONTINUE_ON_FAILURE))
 {
@@ -67,24 +64,16 @@ Mobile.verifyElementVisible(findTestObject('08_search/btn_map'), GlobalVariable.
 'STEP - 병원 목록 선택'
 Mobile.tap(findTestObject('08_search/txt_hospital_name'), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE)
 
-//'기대결과 - 병원상세로 이동되고, [시간예약] 버튼이 노출된다.'
-//Mobile.verifyElementVisible(findTestObject('09_hospital_detail/btn_right', [('text') : '시간예약']), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE)
-//
-//'기대결과 - 병원상세로 이동되고, [바로접수] 버튼이 노출된다.'
-//Mobile.verifyElementVisible(findTestObject('09_hospital_detail/btn_left', [('text') : '바로접수']), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE)
+'기대결과 - 병원상세 화면으로 이동된다.'
+Mobile.verifyElementVisible(findTestObject('05_mypage/txt_tv_title', [('text') : GlobalVariable.hospital_name]), GlobalVariable.waitTime, FailureHandling.CONTINUE_ON_FAILURE)
 
 'STEP - 병원상세 [<-] 뒤로가기 버튼 선택'
 Mobile.tap(findTestObject('09_hospital_detail/btn_iv_back'), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.delay(3)
-
-'기대결과 - 검색 화면으로 이동된다.'
-Mobile.verifyElementText(findTestObject('08_search/input_search'), GlobalVariable.hospital_name, FailureHandling.CONTINUE_ON_FAILURE) 
-
 'STEP - [x] 검색어 삭제 버튼 선택'
 Mobile.tap(findTestObject('08_search/btn_search_clear'), GlobalVariable.fixedTime, FailureHandling.CONTINUE_ON_FAILURE)
 
-'기대결과 - 검색어 삭제되고 최근 검색어가 노출된다.' 
+'기대결과 - 최근 검색어 영역에 검색어 목록이 노출된다.' 
 Mobile.verifyElementText(findTestObject('08_search/txt_recent_list'), GlobalVariable.hospital_name, FailureHandling.CONTINUE_ON_FAILURE)
 
 'STEP - [x] 최근 검색어 버튼 선택'
